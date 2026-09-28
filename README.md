@@ -24,6 +24,29 @@
 ●	Следовать принципам KISS, DRY, YAGNI и т.п.
 ●	Код должен соответствовать code-style соответствующего языка: для Python
 
-Полезные ссылки: 
+## Запуск выполненной части: корабли и ирисы
+
+Ноутбук `task_1.ipynb` содержит всё первое задание: четыре графика кораблей,
+pairplot и violinplot ирисов. Под графиками оставлены краткие выводы.
+Ирисы загружаются из встроенного набора scikit-learn, отдельный CSV не нужен.
+Результаты выполнения сохранены внутри файла.
+
+1. Откройте папку проекта в среде с поддержкой Jupyter (например, VS Code
+   с расширениями Python и Jupyter или Jupyter Notebook).
+2. Откройте `task_1.ipynb` и выберите ядро Python. Для подготовленного на этом
+   компьютере окружения выберите `.venv/Scripts/python.exe`.
+3. Перезапустите ядро и выполните все ячейки сверху вниз (Restart Kernel / Run All).
+   Рабочая папка должна содержать каталог `datasets`.
+
+Для запуска в другом окружении нужны `pandas`, `numpy`, `matplotlib`, `seaborn`,
+`scikit-learn` и `ipykernel`. Их можно установить командой
+`python -m pip install pandas numpy matplotlib seaborn scikit-learn ipykernel`.
+Для отдельного веб-интерфейса Jupyter дополнительно установите `notebook`
+и запустите `python -m notebook` из папки проекта.
+
+Локальное окружение `.venv` и служебные файлы Jupyter исключены из Git.
+Файл зависимостей не используется. Исходные CSV не изменяются.
+
+Полезные ссылки:
 -	https://jakevdp.github.io/PythonDataScienceHandbook/index.html
 -	https://www.kaggle.com/datasets
